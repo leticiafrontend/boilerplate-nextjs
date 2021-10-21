@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --max-warnings=0",
-    "prepare": "husky install",
     "test": "jest",
-    "test:watch": "yarn test --watch"
+    "test:watch": "yarn test --watch",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
