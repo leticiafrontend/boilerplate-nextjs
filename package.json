@@ -11,7 +11,8 @@
     "test:watch": "yarn test --watch",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "husky": {
     "hooks": {
@@ -51,7 +52,7 @@
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^1.13.3",
     "eslint": "8.0.1",
-    "eslint-config-next": "11.1.2",
+    "eslint-config-next": "12.0.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
@@ -60,6 +61,7 @@
     "jest": "^27.3.1",
     "jest-styled-components": "^7.0.5",
     "lint-staged": "^11.2.3",
+    "plop": "^2.7.6",
     "prettier": "2.4.1",
     "typescript": "^4.4.4"
   }
