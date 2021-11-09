@@ -40,6 +40,44 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 - `build-storybook`: create the build version of storybook
 - `generate`: create folder with files for a component
 
+## Folder Architecture
+
+- ** tests **
+  > _Folder responsible for the storage of project tests_
+- _.github_
+  > _Folder responsible for the storage of dependabot settings_
+- _.husky_
+  > _Folder responsible for the storage of husky settings_
+- _.jest_
+  > _Folder responsible for the storage of tests settings_
+- _.storybook_
+  > _Folder responsible for the storage of storybook settings_
+- _generators_
+  > _Folder responsible for the storage of plop file templates_
+- _public_
+  > _Folder responsible for the storage of public files_
+- _src_
+  - _assets_
+    > _Folder responsible for the storage of images, svg's and fonts_
+  - _components_
+    > _Folder responsible for the storage of components_
+  - _contexts_
+    > _Folder responsible for the storage of contexts_
+  - _hooks_
+    > _Folder responsible for the storage of hooks_
+  - _pages_
+    > _Folder responsible for the storage of pages_
+  - _services_
+    > _Folder responsible for the storage of services integration and requests_
+  - _styles_
+    > _Folder responsible for the storage of global styles_
+  - _themes_
+    > _Folder responsible for the storage of theme settings_
+  - _utils_
+    > _Folder responsible for the storage of utility functions_
+- _stories_
+  > _Folder responsible for the storage of storie in storybook_
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
