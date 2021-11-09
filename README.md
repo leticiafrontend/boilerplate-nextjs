@@ -42,8 +42,10 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 ## Folder Architecture
 
-- ** tests **
+- <i>__ tests __</i>
+
   > _Folder responsible for the storage of project tests_
+
 - _.github_
   > _Folder responsible for the storage of dependabot settings_
 - _.husky_
@@ -58,7 +60,9 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
   > _Folder responsible for the storage of public files_
 - _src_
   - _assets_
+
     > _Folder responsible for the storage of images, svg's and fonts_
+    
   - _components_
     > _Folder responsible for the storage of components_
   - _contexts_
